@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="bgWrap">
+        <img src="assets/images/bg.jpg" alt="" class="bgImg">
+        <div class="overlay"></div>
+        <header>
+            <div class="container">
+                <div class="logoContainer">
+                    <img src="assets/images/logo.png" alt="" class="logo">
+                    <div class="contactImg">
+                        <img src="assets/images/phone.png" alt="">
+                    </div>
+                </div>
+                <div class="headerRight">
+                    <ul>
+                        <li class="active">
+                            <a href="#">
+                                <span>BALLINA</span>
+                                <span>mirë se vini</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>REZERVO</span>
+                                <span>online</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>LINJAT</span>
+                                <span>me autobus</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>SHËRBIMET</span>
+                                <span>profesionale</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>KONTAKTI</span>
+                                <span>informacione</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="contact">
+                        <div class="contactImg">
+                            <img src="assets/images/phone.png" alt="">
+                        </div>
+                        <div class="contactInfo">
+                            <p>044 880 500</p>
+                            <p>044 880 600</p>
+                        </div>
+                    </div>
+                    <div class="mobileMenu">
+                        <span class="avMedium">MENU</span>
+                        <button class="bars">
+                            <img src="assets/images/menu.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <section class="banner">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide singleBannerItem">
+                        <img src="assets/images/nature1.png" alt="" class="singleBannerImg">
+                        <div class="bannerItemInner">
+                            <div class="singleBannerTop">
+                                <h2 class="avMedium">Prishtine - Zurich</h2>
+                                <span class="dmSemibold">100 <span class="dmRegular">&euro;</span></span>
+                            </div>
+                            <div class="singleBannerBottom">
+                                <button class="dmMedium">REZERVO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide singleBannerItem">
+                        <img src="assets/images/nature2.png" alt="" class="singleBannerImg">
+                        <div class="bannerItemInner">
+                            <div class="singleBannerTop">
+                                <h2 class="avMedium">Prishtine - Basel</h2>
+                                <span class="dmSemibold">100 <span class="dmRegular">&euro;</span></span>
+                            </div>
+                            <div class="singleBannerBottom">
+                                <button class="dmMedium">REZERVO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide singleBannerItem">
+                        <img src="assets/images/nature3.png" alt="" class="singleBannerImg">
+                        <div class="bannerItemInner">
+                            <div class="singleBannerTop">
+                                <h2 class="avMedium">Prishtine - Geneva</h2>
+                                <span class="dmSemibold">100 <span class="dmRegular">&euro;</span></span>
+                            </div>
+                            <div class="singleBannerBottom">
+                                <button class="dmMedium">REZERVO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide singleBannerItem">
+                        <img src="assets/images/nature4.png" alt="" class="singleBannerImg">
+                        <div class="bannerItemInner">
+                            <div class="singleBannerTop">
+                                <h2 class="avMedium">Prishtine - Bellinzona</h2>
+                                <span class="dmSemibold">100 <span class="dmRegular">&euro;</span></span>
+                            </div>
+                            <div class="singleBannerBottom">
+                                <button class="dmMedium">REZERVO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide singleBannerItem">
+                        <img src="assets/images/nature2.png" alt="" class="singleBannerImg">
+                        <div class="bannerItemInner">
+                            <div class="singleBannerTop">
+                                <h2 class="avMedium">Prishtine - Zurich</h2>
+                                <span class="dmSemibold">100 <span class="dmRegular">&euro;</span></span>
+                            </div>
+                            <div class="singleBannerBottom">
+                                <button class="dmMedium">REZERVO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </section>
+
+
+        <section class="reserve">
+            <div class="container">
+                <h2 class="dmSemibold">REZERVO ONLINE</h2>
+                <div class="reserveTop">
+                    <div class="reserveToggle">
+                        <button class="reserveToggleItem active avMedium">Një drejtim</button>
+                        <button class="reserveToggleItem avMedium">Kthyese</button>
+                    </div>
+                    <div class="reserveWrap">
+                        <div class="reserveSingleSel active">
+                            <label for="nisja" class="avRom">Nisja nga</label>
+                            <select name="nisja" id="nisja" class="avBold">
+                                <option value="Prishtinë">Prishtinë</option>
+                                <option value="Prishtinë">Prishtinë</option>
+                                <option value="Prishtinë">Prishtinë</option>
+                            </select>
+                        </div>
+                        <div class="reserveSingleArrow">
+                            <img src="assets/images/green-arrow.png" alt="">
+                        </div>
+                        <div class="reserveSingleSel">
+                            <label for="nisja" class="avRom">Arritja në</label>
+                            <select name="nisja" id="nisja" class="avBold">
+                                <option value="Geneva">Geneva</option>
+                                <option value="Geneva">Geneva</option>
+                                <option value="Geneva">Geneva</option>
+                            </select>
+                        </div>
+                        <div class="reserveSingleInp">
+                            <img src="assets/images/calender.png" alt="">
+                            <div class="resInpRight">
+                                <label for="resDate" class="avRom"><span>Data e nisjes</span> <span>Nisja me</span></label>
+                                <input type="date" name="resDate" id="resDate" class="avBold">
+                            </div>
+                        </div>
+                        <div class="reserveSingleArrow">
+                            <img src="assets/images/profile.png" alt="">
+                        </div>
+                        <div class="reserveSingleSel resSelSm">
+                            <label for="nisja" class="avRom">Të rritur (mbi 10 vjet)</label>
+                            <select name="nisja" id="nisja" class="avBold">
+                                <option value="1">1</option>
+                                <option value="1">1</option>
+                                <option value="1">1</option>
+                            </select>
+                        </div>
+                        <div class="reserveSingleSel resSelSm">
+                            <label for="nisja" class="avRom">Fëmijë (deri 10 vjeq)</label>
+                            <select name="nisja" id="nisja" class="avBold">
+                                <option value="0">0</option>
+                                <option value="0">0</option>
+                                <option value="0">0</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="reserveBottom">
+                    <div class="resBottomItem">
+                        <h3 class="dmSemibold">ZVICER KOSOVË</h3>
+                        <p class="avRom">
+                            Linja e rregullt çdo të mërkue dhe të shtune
+                            përmes Kroacisë dhe Serbisë
+                        </p>
+                        <button class="dmSemibold">SHIKO</button>
+                    </div>
+                    <div class="resBottomItem">
+                        <h3 class="dmSemibold">KOSOVË ZVICER</h3>
+                        <p class="avRom">
+                            Linja e rregullt çdo të mërkue dhe të shtune
+                            përmes Kroacisë dhe Serbisë
+                        </p>
+                        <button class="dmSemibold">SHIKO</button>
+                    </div>
+                    <div class="resBottomItem">
+                        <h3 class="dmSemibold">AUTOBUSA MODERN</h3>
+                        <p class="avRom">
+                            Linja e rregullt çdo të mërkue dhe të shtune
+                            përmes Kroacisë dhe Serbisë
+                        </p>
+                        <button class="dmSemibold">SHIKO</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <section class="company">
+        <div class="container">
+            <h2 class="dmSemibold">KOMPANIA</h2>
+            <div class="busWrap">
+                <div class="singleBus">
+                    <img src="assets/images/bus1.png" alt="">
+                </div>
+                <div class="singleBus">
+                    <img src="assets/images/bus2.png" alt="">
+                </div>
+                <div class="singleBus">
+                    <img src="assets/images/bus1.png" alt="">
+                </div>
+                <div class="singleBus">
+                    <img src="assets/images/bus2.png" alt="">
+                </div>
+                <div class="singleBus">
+                    <img src="assets/images/bus1.png" alt="">
+                </div>
+                <div class="singleBus">
+                    <img src="assets/images/bus2.png" alt="">
+                </div>
+            </div>
+            <p class="companyText avRom">
+                Themeluar në vitin 1990 jemi kompani që shquhemi për shërbime cilësore, <br>
+                udhëtime komode dhe kujdes ndaj klinetit
+            </p>
+            <button class="companyBtn dmMedium">MË SHUMË</button>
+        </div>
+    </section>
+
+
+    <section class="map">
+        <div class="container">
+            <div class="mapInner">
+                <img src="assets/images/bg.jpg" alt="" class="mapBg">
+                <div class="mapContent">
+                    <div class="mapLeft">
+                        <h3 class="dmSemibold">KONTAKTI</h3>
+                        <p class="avMedium">
+                            Ketu vie adresa dhe te dhenat <br>
+                            baze te kontaktit <br>
+                            Kosovë
+                        </p>
+                        <div class="mapCon">
+                            <span class="avRom">Kontakt ne Kosovë</span>
+                            <p class="avMedium">049 800 800</p>
+                            <p class="avMedium">049 800 700</p>
+                        </div>
+                        <div class="mapCon">
+                            <span class="avRom">Kontakt ne Kosovë</span>
+                            <p class="avMedium">049 800 800</p>
+                            <p class="avMedium">049 800 700</p>
+                        </div>
+                        <button class="mapBtn dmMedium">MË SHUMË</button>
+                    </div>
+                    <div class="mapRight">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391488.65874289506!2d-75.7481078265625!3d39.95245739999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c7fdfdd82019%3A0xead8e5d46e42cec6!2sCondesa!5e0!3m2!1sen!2sbd!4v1705334944681!5m2!1sen!2sbd"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mapToggle">
+                <button class="avMedium active">BALLINA</button>
+                <button class="avMedium">REZERVO </button>
+                <button class="avMedium">LINJAT</button>
+                <button class="avMedium">SHËRBIMET</button>
+                <button class="avMedium">KONTAKTI</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <img src="assets/images/bg.jpg" alt="" class="footerBg">
+        <div class="container">
+            <img src="assets/images/logo.png" alt="" class="footerLogo">
+            <p class="dmLight">
+                Këtu vjen impresum i kompanisë lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/facebook.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/email.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            spaceBetween: 10,
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                650: {
+                    slidesPerView: 2,
+                    spaceBetween: 25,
+                },
+                768: {
+                    slidesPerView: 3,
+                },
+                1100: {
+                    slidesPerView: 4,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>
